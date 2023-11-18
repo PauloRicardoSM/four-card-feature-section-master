@@ -1,0 +1,129 @@
+@media (min-width: 550px) {
+    div#interface {
+        width: 80%;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+    .card img {
+        margin-left: 85%;
+        margin-top: 5%;
+    }
+
+    .card p {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 769px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.7em;
+    }
+
+    p {
+        font-size: 1.3em;
+        width: 90%;
+    }
+
+    div#interface {
+        width: 600px;
+    }
+
+    .card p {
+        font-size: 1.1em;
+        width: 90%;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 1025px) {
+    p {
+        font-size: 0.9em;
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 1.8em;
+        margin-bottom: -10px;
+    }
+
+    h1#titleOne {
+        margin-bottom: -20px;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    div#interface {
+        width: 90%;
+        margin-top: 0%;
+    }
+
+    div#cardArea {
+        display: flex;
+        place-items: center;
+        justify-content: space-between;
+        gap: 3%;
+        margin-top: -2%;
+    }
+
+    div#column {
+        margin: 0;
+        width: 35%;
+        flex: 1;
+    }
+
+    div#column .card {
+        width: 100%;
+    }
+
+    .cardContents {
+        margin: 10%;
+    }
+
+    div#column img {
+        margin-bottom: 10%;
+    }
+
+    .card {
+        width: 30%;
+        padding: 0%;
+        flex-grow: 1;
+        flex: 1;
+    }
+
+    .card img {
+        margin-left: 70%;
+        width: 22%;
+        height: 22%;
+    }
+
+    .card p{
+        font-size: 0.7em;
+        width: 95%;
+    }
+
+    .attribution {
+        margin-top: -2%;
+    }
+}
+
+@media (min-width: 1440px) {
+    h2 {
+        font-size: 1.3em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+    .card p {
+        font-size: 0.9em;
+    }
+}
